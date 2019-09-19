@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="keywords" content="">
+      <title>Coinbox</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/media.css">
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/fonts.css">
+      <link rel="stylesheet" href="css/slick.css">
+      <link rel="stylesheet" href="css/slick-theme.css">
+      <link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+      <link rel="stylesheet" href="css/animate.css">
+      <link rel="shortcut icon" href="" type="image/x-icon">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <script src="js/jquery-1.9.1.min.js"></script>
+      <script src="js/slick.js"></script>
+      <script src="js/jquery.countdown.js"></script>
+      <script src="js/jquery.arcticmodal-0.3.min.js"></script>
+      <script src="js/wow.min.js"></script>
+      <script src="js/main.js"></script>
+      <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+</head>
+<body>
+      <header class="header">
+            <div class="container">
+                  <div class="header__wrap">
+                        <div class="header__logo logo">
+                              <a href="#" class="logo__link">
+                                    <img src="images/logo.svg" alt="Coinbox Space" class="logo__img">
+                              </a>
+                        </div>
+                        <div class="header__right">
+                              <nav class="header__nav nav">
+                                    <a href="#" class="nav__link nav__link--active">Главная</a>
+                                    <a href="#" class="nav__link">Комюнити</a>
+                                    <a href="#" class="nav__link">Coinbox</a>
+                                    <a href="#" class="nav__link">О нас</a>
+                                    <a href="#" class="nav__link">Faqs</a>
+                              </nav>
+                              <select class="header__lang lang">
+                                    <option value="hide">Ru</option>
+                                    <option value="En">En</option>
+                              </select>
+                              <div class="header__sign sign" onclick="$('#winnermodal').arcticmodal()">Вход</div>
+                              <div class="header__btn btn-toggle">
+                                    <div class="btn-toggle__line"></div>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="header__mobile-menu mobile-menu">
+                        <div class="mobile-menu__logo logo">
+                              <a href="#" class="logo__link">
+                                    <img src="images/logo.png" alt="Coinbox Space" class="logo__img">
+                              </a>
+                        </div>
+                        <nav class="mobile-menu__nav mobile-nav">
+                              <a href="#" class="mobile-nav__link mobile-nav__link--active">Комюнити</a>
+                              <a href="#" class="mobile-nav__link">Coinbox</a>
+                              <a href="#" class="mobile-nav__link">О нас</a>
+                              <a href="#" class="mobile-nav__link">Faqs</a>
+                        </nav>
+                        <div class="mobile-menu__sign sign">Вход</div>
+                  </div>
+            </div>
+      </header>
+      <main>
+            <section class="slider">
+                  <div class="container">
+                        <div class="slider__wrap slider-init">
+                              <div class="slider-init__item">
+                                    <div class="slider-init__info">
+                                          <div class="slider-init__title">
+                                                Купив токен, получаете возможность <span class="slider-init__high">реализовать свои смелые идеи</span> и стать участником в Coinbox
+                                          </div>
+                                          <div class="slider-init__links">
+                                                <a href="#" class="slider-init__link btn" onclick="$('#registermodal').arcticmodal()">Регистрация</a>
+                                                <a class="slider-init__link btn-black" onclick="$('#buymodal').arcticmodal()">Купить токен</a>
+                                          </div>
+                                    </div>
+                                    <div class="slider-init__img">
+                                          <img src="images/slide_1.png" alt="">
+                                    </div>
+                              </div>
+                              <div class="slider-init__item">
+                                    <div class="slider-init__info">
+                                          <div class="slider-init__title">
+                                                Все справедливо, <span class="slider-init__high">ваши идеи</span> оценивают другие владельцы токенов. Принимать участие в Coinbox можно неоднократно
+                                          </div>
+                                          <!-- <div class="slider-init__links">
+                                                <a href="#" class="slider-init__link btn" onclick="$('#registermodal').arcticmodal()">Регистрация</a>
+                                                <a class="slider-init__link btn-black" onclick="$('#codemodal').arcticmodal()">Купить токен</a>
+                                          </div> -->
+                                    </div>
+                                    <div class="slider-init__img">
+                                          <img src="images/slide_2.png" alt="">
+                                    </div>
+                              </div>
+                              <div class="slider-init__item">
+                                    <div class="slider-init__info">
+                                          <div class="slider-init__title">
+                                                Лучшие идеи воплощаются в жизнь, а автор проекта вознаграждение. Это может стать <span class="slider-init__high">первым шагом</span> к реализации собственного старт-апа. Дополнительная возможность заработка - <span class="slider-init__high">партнерская программа</span>, приводите друзей и зарабатывайте.
+                                          </div>
+                                          <!-- <div class="slider-init__links">
+                                                <a href="#" class="slider-init__link btn" onclick="$('#registermodal').arcticmodal()">Регистрация</a>
+                                                <a class="slider-init__link btn-black" onclick="$('#codemodal').arcticmodal()">Купить токен</a>
+                                          </div> -->
+                                    </div>
+                                    <div class="slider-init__img">
+                                          <img src="images/slide_3.png" alt="">
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="slider__nav">
+                        </div>
+                        <div class="slider__nav-mobile"></div>
+                  </div>
+            </section>
+            <section class="statistic">
+                  <div class="statistic-bg"></div>
+                  <div class="container">
+                        <div class="statistic__wrap">
+                              <h2 class="title title--overflow">Статистика</h2>
+                              <div class="statistic__info stats">
+                                    <div class="stats__block stats__block--width">
+                                          <div class="stats__value">1239</div>
+                                          <div class="stats__desc">Количество участников</div>
+                                    </div>
+                                    <div class="stats__block stats__block--time">
+                                          <div class="stats__hours-wrapper"> 
+                                                <span class="stats__hours"></span> 
+                                          </div>
+                                          <span class="test">:</span>
+                                          <div class="stats__minutes-wrapper"> 
+                                                <span class="stats__minutes"></span> 
+                                          </div>
+                                          <span class="test">:</span>
+                                          <div class="stats__seconds-wrapper"> 
+                                                <span class="stats__seconds"></span> 
+                                          </div>
+                                    </div>
+                                    <div class="stats__block stats__block--money">
+                                          <div class="stats__value">345$</div>
+                                          <div class="stats__desc">Coinbox</div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <section class="advantages">
+                  <div class="container">
+                        <div class="advantages__wrap">
+                              <h2 class="title-right title--overflow">Преимущества</h2>
+                              <div class="advantages__text-wrap">
+                                    <p class="advantages__text text text--right">
+                                          Текст
+                                    </p>
+                              </div>
+                              <div class="advantages__box advantages-box">
+                                    <div class="advantages-box__item advantages-block__item--width">
+                                          <div class="advantages-box__wrap">
+                                                <img src="images/like.png" alt="" class="advantages-item__img">
+                                                <div class="advantages-item__title">Честность</div>
+                                          </div>
+                                          <div class="advantages-box__number">1</div>
+                                          <div class="advantages-box__text">
+                                                Честность -  победителя выбирает специальный алгоритм, доступа к принятию решения нет даже у администратора. Кто победил, может узнать каждый участник розыгрыша, все открыто, доступно и честно.
+                                          </div>
+                                    </div>
+                                    <div class="advantages-box__item advantages-box__item--center">
+                                          <div class="advantages-box__wrap">
+                                                <img src="images/clean.png" alt="" class="advantages-item__img">
+                                                <div class="advantages-item__title">Прозрачность</div>
+                                          </div>
+                                          <div class="advantages-box__number">2</div>
+                                          <div class="advantages-box__text">
+                                                Прозрачность – Вам известно количество участников в реальном времени, сумма Coinbox, а победитель проверенный и реальный человек, вы даже можете посмотреть его социальные сети.
+                                          </div>
+                                    </div>
+                                    <div class="advantages-box__item">
+                                          <div class="advantages-box__wrap">
+                                                <img src="images/support.png" alt="" class="advantages-item__img">
+                                                <div class="advantages-item__title">Поддержка криптовалют</div>
+                                          </div>
+                                          <div class="advantages-box__number">3</div>
+                                          <div class="advantages-box__text">
+                                                Поддержка криптовалют позволяет сохранить конфеденциальность платежа.
+                                          </div>
+                                    </div>
+                                    <div class="advantages-box__item">
+                                          <div class="advantages-box__wrap">
+                                                <img src="images/idea.png" alt="" class="advantages-item__img">
+                                                <div class="advantages-item__title">Поддержка идей пользователей</div>
+                                          </div>
+                                          <div class="advantages-box__number">4</div>
+                                          <div class="advantages-box__text">
+                                                Поддержка идей пользователей - лучшие идеи, дизайна функционала и возможностей будут реализованы, на нашей платформе CoinboxSpace.
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <section class="invite">
+                  <div class="invite-bg"></div>
+                  <div class="container">
+                        <div class="invite__wrap">
+                              <h2 class="title title--overflow">Как принять участие</h2>
+                              <p class="invite__text text">
+                                    Все очень просто.
+                              </p>
+                              <div class="invite__box sequences">
+                                    <div class="sequences__row sequences__row--between">
+                                          <div class="sequences__item sequences__item--one">
+                                                <div class="sequences__block">
+                                                      <img src="images/domain.png" class="sequences__img" alt="">
+                                                </div>
+                                                <div class="sequences__info">
+                                                      <div class="sequences__title">Регистрация</div>
+                                                      <div class="sequences__text">
+                                                            Регистрируйся через любую удобную соц.сеть
+                                                      </div>
+                                                </div>
+                                          </div>
+                                          <div class="sequences__item sequences__item--two">
+                                                <div class="sequences__block">
+                                                      <img src="images/analyze.png" class="sequences__img" alt="">
+                                                </div>
+                                                <div class="sequences__info">
+                                                      <div class="sequences__title">Проверка подлинности аккаунта</div>
+                                                      <div class="sequences__text">
+                                                            Проверка подлинности аккаунта - необходимая процедура, защищающая от ботов, фейков и мошенников 
+                                                      </div>
+                                                </div>
+                                          </div>
+                                          <div class="sequences__item sequences__item--three">
+                                                <div class="sequences__block">
+                                                      <img src="images/tickets.png" class="sequences__img" alt="">
+                                                </div>
+                                                <div class="sequences__info">
+                                                      <div class="sequences__title">Покупка Space Pass</div>
+                                                      <div class="sequences__text">
+                                                            Купить билеты можно за любую валюту онлайн
+                                                      </div>
+                                                </div>
+                                          </div>
+                                         <div class="sequences__item sequences__item--width sequences__item--four">
+                                                <div class="sequences__block">
+                                                      <img src="images/money.png" class="sequences__img" alt="">
+                                                </div>
+                                                <div class="sequences__info">
+                                                      <div class="sequences__title">Вывод средств</div>
+                                                      <div class="sequences__text">
+                                                            Вывод средств - вывод в криптовалюте позволяет сохранить конфиденциальность платежа
+                                                      </div>
+                                                </div>
+                                          </div>
+                                          <div class="sequences__item sequences__item--width sequences__item--full sequences__item--five">
+                                                <div class="sequences__block">
+                                                      <img src="images/hourglass.png" class="sequences__img" alt="">
+                                                </div>
+                                                <div class="sequences__info">
+                                                      <div class="sequences__title">Ожидание</div>
+                                                      <div class="sequences__text">
+                                                            Таймер на главной там наше время - в это время вы можете заниматься своими делами, сидеть перед экраном не обязательно. Вам прейдёт уведомление или мы сами с вами свяжемся
+                                                      </div>
+                                                </div>
+                                          </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+      </main>
+      <footer class="footer">
+            <div class="container">
+                  <div class="footer__wrap">
+                        <div class="title-right title--overflow">Контакты</div>
+                        <div class="footer__container">
+                              <div class="footer__info">
+                                    <div class="footer__block">
+                                          <a href="mailto:info@Coinboxspace.com" class="footer__adress">info@Coinboxspace.com</a>
+                                    </div>
+                                    <div class="footer__block">
+                                          <div class="footer__socials socials">
+                                                <div class="socials__title">Мы в соц. сетях</div>
+                                                <a href="#" class="socials__link socials__link--facebook">
+                                                      <img src="images/fb.svg" alt="" class="socials__img">
+                                                </a>
+                                                <a href="#" class="socials__link socials__link--instagram">
+                                                      <img src="images/instagram.svg" alt="" class="socials__img">
+                                                </a>
+                                                <a href="#" class="socials__link socials__link--vkontakte">
+                                                      <img src="images/vk.svg" alt="" class="socials__img">
+                                                </a>
+                                                <a href="#" class="socials__link socials__link--telegram">
+                                                      <img src="images/telegram.svg" alt="" class="socials__img">
+                                                </a>
+                                          </div>
+                                    </div>
+                                    <div class="footer__copyright">
+                                          Copyright © 2013-2019 CoinBoxSpace
+                                          <br />Все права защищены
+                                    </div>
+                              </div>
+                              <form action="" class="footer__form feedback-form">
+                                    <div class="feedback-form__title">Обратная связь</div>
+                                    <input type="text" class="feedback-form__input" placeholder="Имя">
+                                    <input type="text" class="feedback-form__input" placeholder="E-mail">
+                                    <textarea class="feedback-form__textarea" placeholder="Сообщение"></textarea>
+                                    <input type="submit" class="feedback-form__btn" value="Отправить">
+                              </form>
+                        </div>
+                  </div>
+            </div>
+      </footer>
+      <div style="display: none;">
+            <div class="box-modal" id="codemodal">
+                  <div class="box-modal__close arcticmodal-close"></div> 
+                  <img src="images/code.png" alt="" class="box-modal__img">
+                  <div class="box-modal__referal modal-referal">
+                        <div class="modal-referal__code">
+                              <div class="modal-referal__title">Уникальный код для Coinbox:</div>
+                              <div class="modal-referal__value">S35Fge34TG49358RGBg4gS35Fge34TG34TG49358RGB</div>
+                        </div>
+                        <div class="box-modal__links">
+                              <div class="box-modal__btn modal-btn">Купить токен</div>
+                              <a class="box-modal__code">Генерация нового кода</a>
+                        </div>
+                  </div>
+            </div>
+      </div>
+
+      <div style="display: none;">
+            <div class="box-modal" id="registermodal">
+                  <div class="box-modal__close arcticmodal-close"></div> 
+                  <div class="box-modal__title">Регистрация</div>
+                  <div class="box-modal__desc">Авторизации через социальную сеть</div>
+                  <div class="box-modal__socials socials-buttons">
+                        <a href="" class="socials-buttons__btn socials-buttons__btn--vkontakte">Vkontakte</a>
+                        <a href="" class="socials-buttons__btn socials-buttons__btn--facebook">Facebook</a>
+                        <a href="" class="socials-buttons__btn socials-buttons__btn--instagram">Instagram</a>
+                  </div>
+                  <div class="box-modal__other">
+                        или
+                        <div class="box-modal__write">Введите данные:</div>
+                        <form action="/" class="box-modal__form register-form">
+                              <input type="text" class="register-form__input" placeholder="Имя">
+                              <input type="text" class="register-form__input" placeholder="E-mail">
+                              <input type="submit" class="register-form__btn modal-btn" value="Зарегистрироваться">
+                        </form>
+                  </div>
+            </div>
+      </div>
+
+      <div style="display: none;">
+            <div class="box-modal" id="buymodal">
+                  <div class="box-modal__close arcticmodal-close"></div> 
+                  <div class="box-modal__title">Вы не авторизованы</div>
+                  <div class="box-modal__desc">Для того, чтобы купить токены, пожалуйста авторизуйтесь.</div>
+                  <div class="box-modal__socials socials-buttons">
+                        <a href="" class="socials-buttons__btn socials-buttons__btn--vkontakte">Vkontakte</a>
+                        <a href="" class="socials-buttons__btn socials-buttons__btn--facebook">Facebook</a>
+                        <a href="" class="socials-buttons__btn socials-buttons__btn--instagram">Instagram</a>
+                  </div>
+            </div>
+      </div>
+
+      <div style="display: none;">
+            <div class="box-modal box-modal--color box-modal--padding" id="winnermodal">
+                  <div class="box-modal--bg"></div>
+                  <div class="box-modal__close arcticmodal-close"></div> 
+                  <div class="box-modal__time">
+                        <div class="box-modal__stitle">Coinbox</div>
+                        <div class="box-modal__description">Время до начала</div>
+                        <div class="box-modal__datetime datetime">
+                              <div class="datetime__block datetime__block--time">
+                                    <div class="datetime__hours-wrapper"> 
+                                          <span class="datetime__hours"></span> 
+                                    </div>
+                                    <span class="datetime__del">:</span>
+                                    <div class="datetime__minutes-wrapper"> 
+                                          <span class="datetime__minutes"></span> 
+                                    </div>
+                                    <span class="datetime__del">:</span>
+                                    <div class="datetime__seconds-wrapper"> 
+                                          <span class="datetime__seconds"></span> 
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="box-modal__value">1000$</div>
+                        <h3 class="box-modal__subtitle">Победители:</h3>
+                        <div class="box-modal__win winners">
+                              <div class="winners__list">
+                                    <div class="winners__item fadeIn" data-wow-delay="0s">
+                                          <div class="winners__name">1. @sarvle_24</div>
+                                          <div class="winners__sum">1000$</div>
+                                    </div>
+                                    <div class="winners__item fadeIn" data-wow-delay="1s">
+                                    <div class="winners__name">2. @sarvle_24</div>
+                                          <div class="winners__sum">1000$</div>
+                                    </div>
+                                    <div class="winners__item fadeIn" data-wow-delay="2s">
+                                    <div class="winners__name">3. @sarvle_24</div>
+                                          <div class="winners__sum">1000$</div>
+                                    </div>
+                                    <div class="winners__item fadeIn" data-wow-delay="3s">
+                                    <div class="winners__name">4. @sarvle_24</div>
+                                          <div class="winners__sum">1000$</div>
+                                    </div>
+                                    <div class="winners__item fadeIn" data-wow-delay="4s">
+                                    <div class="winners__name">5. @sarvle_24</div>
+                                          <div class="winners__sum">1000$</div>
+                                    </div>
+                              </div>
+                              <div class="winners__list">
+                                    <div class="winners__item fadeIn" data-wow-delay="5s">
+                                          <div class="winners__name">1. @sarvle_24</div>
+                                          <div class="winners__sum">1000$</div>
+                                    </div>
+                                    <div class="winners__item fadeIn" data-wow-delay="6s">
+                                    <div class="winners__name">2. @sarvle_24</div>
+                                          <div class="winners__sum">1000$</div>
+                                    </div>
+                                    <div class="winners__item fadeIn" data-wow-delay="7s">
+                                    <div class="winners__name">3. @sarvle_24</div>
+                                          <div class="winners__sum">1000$</div>
+                                    </div>
+                                    <div class="winners__item fadeIn" data-wow-delay="8s">
+                                    <div class="winners__name">4. @sarvle_24</div>
+                                          <div class="winners__sum">1000$</div>
+                                    </div>
+                                    <div class="winners__item fadeIn" data-wow-delay="9s">
+                                    <div class="winners__name">5. @sarvle_24</div>
+                                          <div class="winners__sum">1000$</div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+
+</body>
+</html>
